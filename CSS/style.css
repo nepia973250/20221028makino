@@ -1,0 +1,402 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo_img{
+  width: 100px;
+}
+
+.header_nav{
+  font-size: 12px;
+  width: 300px;
+  margin:10px 10px auto;
+}
+
+.header_ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.header_text{
+  text-decoration: none;
+  color: black;
+}
+
+.title{
+  position: relative;
+}
+
+.title_img{
+  margin: 0 0 0 auto;
+  display:block;
+  width:60%;
+}
+
+.title_img img{
+  width: 100%;
+}
+
+.title_title{
+  color:rgb(194, 0, 104);
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  font-size: 40px;
+  font-family: 'Gorditas', cursive;
+}
+
+.title_title span{
+  color: rgb(0, 119, 255);
+}
+
+.title_text1{
+  color: rgb(194, 0, 104);
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title_text1 span {
+  color: rgb(0, 119, 255);
+}
+
+.title_text2{
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  font-size: 10px;
+}
+
+.news{
+  margin: 0 auto;
+  width: 60%;
+}
+
+.news_top,.about_top,.service_top,.blog_top,.company_top{
+  font-family: 'Gorditas', cursive;
+  margin-top: 50px;
+  line-height: 50px;
+  color: rgb(194, 0, 104);
+  size:10px;
+}
+
+.news_title,.about_title,
+.service_title,.blog_title,
+.company_title{
+  margin-bottom: 30px;
+}
+
+h2{
+  font-size: 20px;
+}
+
+.news_ul{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news_ttl{
+  margin: 30px auto 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news_tag{
+  width: 70px;
+  padding: 0 5px;
+  margin: 0 5px;
+  color: #fff;
+  border-radius: 30px;
+  background: rgb(194, 0, 104);
+  text-align: center
+}
+
+.about{
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.about_right{
+  width:300px;
+  height:100%;
+}
+
+.about_bottom{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_left{
+  width: 300px;
+  font-size:12px ;
+  text-align: left;
+  line-height:20px
+}
+
+.about_left_bottom{
+  margin-top: 12px;
+}
+
+.service{
+  margin: 0 auto;
+  width: 70%;
+}
+
+.service_bottom{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 18px;
+  line-height: 20px
+}
+
+.service_title2{
+  margin-bottom: 5px;
+}
+
+.service_left{
+  background-color: rgb(194, 0, 104);
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service_left_img{
+  width:100px;
+  margin: 10px auto;
+}
+
+.service_text_left{
+  width: 70%;
+}
+
+.service_right{
+  width: 50%;
+  height: 50%;
+}
+
+.service_right_top{
+  background-color: rgb(196, 41, 124);
+}
+
+.service_right_bottom{
+  background-color: rgb(192, 84, 141);
+}
+
+.service_right_top,.service_right_bottom{
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service_right_img img{
+  width: 100px;
+}
+
+.blog{ 
+  background-color: aliceblue;
+  padding-bottom: 30px;
+}
+
+.blog_back{
+  margin: 0 auto;
+  width: 70%;
+}
+
+.blog_cards{
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog_card{
+  width: 30%;
+
+}
+
+.blog_img{
+  background-image: url("../img/blog__first.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 170px;
+  border-top-right-radius:15px;
+  border-top-left-radius: 15px;
+}
+
+.blog_text{
+  color: #fff;
+  background-color: rgb(194, 0, 104);
+  display: inline-block;
+  padding: 10px;
+  border-top-left-radius: 15px;
+}
+
+.blog_ttl{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.blog_title2{
+  padding-top: 20px;
+  width: 90%;
+  font-size: 12px;
+  line-height: 20px
+}
+
+.blog_tag{
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.blog_date{
+  display: inline-block;
+}
+
+.blog_tag_text{
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.blog_bottom{
+  width: 180px;
+  padding: 20px 0;
+  text-decoration: none;
+  color:rgb(194, 0, 104);
+  border-radius: 30px;
+  border-color:rgb(194, 0, 104) ;
+  background-color: #fff;
+  border:solid 3px rgb(194, 0, 104);
+  text-align: center;
+  margin: 50px auto;
+  display: block;
+}
+
+.company{
+  margin: 50px auto;
+  width: 70%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+table th {
+  font-weight: bold;
+  background-color: #dedede;
+}
+
+.etc_top{
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.etc_top_left{
+  position: relative;
+  background-image: urL("../img/recruit.png");
+  width: 50%;
+  height: 300px;
+}
+
+.etc_left{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.etc_top_right{
+  position: relative;
+  background-image: urL("../img/interview.png");
+  width: 50%;
+  height: 300px;
+}
+
+.etc_right {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.etc_bottom_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 50px;
+}
+
+.etc_bottom_ttl{
+  font-size: 20px;
+}
+
+.etc_bottom_text2{
+  border: solid 1px;
+  color: rgb(194, 0, 104);
+  height: 20px;
+}
+
+.etc_bottom{
+  position: relative;
+  background:linear-gradient(90deg,rgb(190, 40, 120), #c20068);
+  width: 200px;
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50px;
+  margin: 20px auto;
+  box-shadow:0 8px #650237;
+}
+
+.etc_bottom::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  background: url(../img/mailicon.svg) no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  transform: translateY(-50%);
+}
+
+fotter{
+  display: block;
+  margin-top: 50px;
+  text-align: center;
+}
+
